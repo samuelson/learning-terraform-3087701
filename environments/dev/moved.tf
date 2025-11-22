@@ -9,7 +9,7 @@ moved {
 moved {
   from = module.blog_alb
   to   = module.dev.module.blog_alb
-
+}
 moved {
   from = aws_lb_target_group.blog
   to   = module.dev.aws_lb_target_group.blog
